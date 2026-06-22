@@ -1,15 +1,77 @@
-body { 
-  font-family: Arial, sans-serif; 
+body {
   margin: 0;
-  padding: 40px;
-  background: #f5f7fb;
-  color: #10233f; 
+  font-family: Arial, sans-serif;
 }
 
-h1 { 
-  color: #10233f; 
-} 
+.hero {
+  min-height: 560px;
+  background: linear-gradient(135deg, #0d2b57, #243f8f, #7d2f63);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 40px 20px;
+}
 
-p{ 
-  font-size: 18px; 
+.hero-content {
+  max-width: 760px;
+}
+
+.profile-img {
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #f4c542;
+  background: white;
+}
+
+.hero h1 {
+  font-size: 54px;
+  margin: 22px 0 12px;
+  font-weight: 800;
+}
+
+.subtitle {
+  background: white;
+  color: #c21738;
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 1.4px;
+  padding: 8px 28px;
+  border-radius: 999px;
+  display: inline-block;
+  margin-bottom: 24px;
+}
+
+.hero-text {
+  font-size: 17px;
+  line-height: 1.7;
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 12px 22px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.yellow {
+  background: #f4c542;
+  color: #0d2b57;
+}
+
+.blue {
+  background: #435b93;
+  color: white;
 }

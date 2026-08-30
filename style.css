@@ -266,3 +266,172 @@ body {
         text-align: left;
     }
 }
+/* =========================
+   EXPERIENCE SECTION
+========================= */
+
+.experience-section {
+    background: #ffffff;
+    padding: 70px 20px 80px;
+    color: #0b2347;
+}
+
+.experience-inner {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+
+/* Heading */
+
+.experience-heading {
+    margin-bottom: 45px;
+}
+
+.experience-heading h2 {
+    margin: 0 0 10px;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 800;
+    color: #0b2347;
+}
+
+.experience-heading p {
+    margin: 0;
+    font-size: 18px;
+    color: #67748a;
+}
+
+
+/* Timeline */
+
+.experience-timeline {
+    position: relative;
+    margin-left: 24px;
+}
+
+
+/* Vertical gray line */
+
+.experience-timeline::before {
+    content: "";
+    position: absolute;
+
+    left: 8px;
+    top: 12px;
+    bottom: 0;
+
+    width: 3px;
+
+    background: #e1e5eb;
+}
+
+
+/* Individual experience */
+
+.experience-item {
+    position: relative;
+    padding-left: 48px;
+    padding-bottom: 45px;
+}
+
+
+/* Red circle */
+
+.experience-dot {
+    position: absolute;
+
+    left: -1px;
+    top: 3px;
+
+    width: 20px;
+    height: 20px;
+
+    background: #d81b42;
+
+    border: 5px solid #f8d8df;
+    border-radius: 50%;
+
+    z-index: 2;
+}
+
+
+/* Experience content */
+
+.experience-content h3 {
+    margin: 0 0 4px;
+
+    font-size: 20px;
+    font-weight: 800;
+
+    color: #0b2347;
+}
+
+.experience-content h3 span {
+    font-weight: 800;
+}
+
+
+/* Date/location */
+
+.experience-meta {
+    margin: 0 0 12px;
+
+    font-size: 15px;
+
+    color: #68758c;
+}
+
+
+/* Bullets */
+
+.experience-content ul {
+    margin: 0;
+    padding-left: 23px;
+}
+
+.experience-content li {
+    margin-bottom: 6px;
+
+    font-size: 17px;
+    line-height: 1.55;
+
+    color: #2b3445;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+    .experience-section {
+        padding: 55px 18px 65px;
+    }
+
+    .experience-heading h2 {
+        font-size: 30px;
+    }
+
+    .experience-heading p {
+        font-size: 16px;
+    }
+
+    .experience-timeline {
+        margin-left: 10px;
+    }
+
+    .experience-item {
+        padding-left: 38px;
+    }
+
+    .experience-content h3 {
+        font-size: 18px;
+    }
+
+    .experience-content li {
+        font-size: 15px;
+    }
+}

@@ -621,3 +621,23 @@ body {
 #current-projects .project-card {
     background: #f9fafc;
 }
+project-report {
+    margin-bottom: 18px;
+}
+
+.project-report-btn {
+    display: inline-block;
+    padding: 9px 16px;
+    background: #f5c542;
+    color: #10233f;
+    border-radius: 999px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-report-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(11, 35, 71, 0.15);
+}

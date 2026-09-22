@@ -609,3 +609,15 @@ body {
     }
 
 }
+/* =========================
+   CURRENT PROJECTS SECTION
+========================= */
+
+#current-projects {
+    background: #ffffff;
+    border-top: 1px solid #e5e9f0;
+}
+
+#current-projects .project-card {
+    background: #f9fafc;
+}

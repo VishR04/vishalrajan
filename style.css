@@ -750,3 +750,123 @@ project-report {
         font-size: 15px;
     }
 }
+
+/* =========================
+   CONTACT SECTION
+========================= */
+
+.contact-section {
+    background: #0b2347;
+    padding: 75px 20px 80px;
+    text-align: center;
+    color: white;
+}
+
+.contact-inner {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+/* Heading */
+
+.contact-section h2 {
+    margin: 0 0 16px;
+
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 800;
+
+    color: #ffffff;
+}
+
+
+/* Description */
+
+.contact-section p {
+    margin: 0 auto 30px;
+
+    font-size: 17px;
+    line-height: 1.6;
+
+    color: #c8d1df;
+}
+
+
+/* Buttons */
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+
+/* Individual button */
+
+.contact-btn {
+    display: inline-block;
+
+    padding: 11px 22px;
+
+    background: #243b61;
+    color: #ffffff;
+
+    border: 1px solid #5b6e8d;
+    border-radius: 999px;
+
+    text-decoration: none;
+
+    font-size: 14px;
+    font-weight: 700;
+
+    transition:
+        background 0.2s ease,
+        transform 0.2s ease,
+        border-color 0.2s ease;
+}
+
+
+/* Hover effect */
+
+.contact-btn:hover {
+    background: #ffffff;
+    color: #0b2347;
+
+    border-color: #ffffff;
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================
+   CONTACT MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+    .contact-section {
+        padding: 60px 18px 65px;
+    }
+
+    .contact-section h2 {
+        font-size: 30px;
+    }
+
+    .contact-section p {
+        font-size: 15px;
+    }
+
+    .contact-buttons {
+        flex-direction: column;
+    }
+
+    .contact-btn {
+        width: 100%;
+        max-width: 310px;
+    }
+}
